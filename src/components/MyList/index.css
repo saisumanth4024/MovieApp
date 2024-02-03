@@ -1,0 +1,24 @@
+.mylist-bg-container {
+  background-color: #131313;
+  min-height: 100vh;
+}
+.mylist-item-list-container {
+  display: flex;
+  height: 70vh;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .popular-item-list-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

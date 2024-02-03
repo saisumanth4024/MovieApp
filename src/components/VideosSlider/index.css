@@ -1,0 +1,27 @@
+.thumbnail {
+  height: 64px;
+  width: 80px;
+  border-radius: 8px;
+  padding: 6px;
+  outline: 0px solid #fff;
+}
+.thumbnail:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    height: 200px;
+    width: 265px;
+    border-radius: 15px;
+    outline: 0px solid #fff;
+    margin: 10px;
+  }
+  .thumbnail:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+}
