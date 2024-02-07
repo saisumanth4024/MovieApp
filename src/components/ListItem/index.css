@@ -1,0 +1,28 @@
+.list-item {
+  min-width: 84px;
+  width: 30%;
+  height: 180px;
+  margin-bottom: 30px;
+  padding: 10px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 24%;
+    max-width: 245px;
+    height: 370px;
+    padding: 10px;
+    outline: 2px solid #000;
+    border-radius: 15px;
+  }
+}
+.list-item-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.list-item-image:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
+}
